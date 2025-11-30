@@ -1,3 +1,4 @@
+import requests
 from bs4 import BeautifulSoup
 import csv
 
@@ -49,3 +50,4 @@ with open("HotelRooms.csv", "r", encoding="utf-8") as f:
         print(row)
 
 print("\nDone!")
+
